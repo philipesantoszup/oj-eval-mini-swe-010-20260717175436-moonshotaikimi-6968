@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/list_two.dir/data/two/code.o -o list_two 

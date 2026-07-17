@@ -6,7 +6,6 @@
 #include "list.hpp"
 
 #include <iostream>
-#include <cstdio>
 #include <list>
 
 const int N = 5e4;
@@ -326,7 +325,7 @@ bool testUnique() {
     return equal(ans, myList);
 }
 
-int main(){ setbuf(stdout, NULL);
+int main(){
     srand(time(NULL));
     bool (*testList[])() = {
             testConstructors, testAssignment, testPush, testPop, testIterator,
